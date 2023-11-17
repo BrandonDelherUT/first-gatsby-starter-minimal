@@ -3,7 +3,7 @@ import * as React from "react"
 const pageStyles = {
   color: "#232129",
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontFamily: "-apple-system, Poppins, sans-serif, serif",
 }
 const headingStyles = {
   marginTop: 0,
@@ -127,6 +127,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
+        HELLO WORLD
         Congratulations
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
